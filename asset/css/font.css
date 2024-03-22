@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "base";
+  src: url("../fonts/65421b9842ee316b29a653fd_BasebornSans.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sohne Breit";
+  src: url("../fonts/Sohne-Buch-e93b614b.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Sohne bold Breit";
+  src: url("../fonts/Sohne-Buch-e93b614b.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Sohne light Breit";
+  src: url("../fonts/Sohne-Leicht-f6abd4c7.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}

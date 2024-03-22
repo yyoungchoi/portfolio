@@ -1,0 +1,133 @@
+@import "./reset.css";
+@import "./common.css";
+@import "./font.css";
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+.m {
+  display: none;
+}
+.wrapper {
+  position: relative;
+  min-width: 320px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  z-index: 10;
+  mix-blend-mode: difference;
+}
+#gnb ul {
+  display: flex;
+  gap: 40px;
+}
+#gnb a {
+  position: relative;
+  font-size: 20px;
+}
+#gnb a:after {
+  content: "";
+  display: block;
+  transition: all ease-in-out 0.2s;
+  background: #fff;
+  height: 1px;
+  width: 0;
+}
+#gnb a:hover:after {
+  width: 100%;
+}
+#cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  pointer-events: none;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+  z-index: 999;
+}
+
+footer .headline {
+  text-transform: uppercase;
+  font-size: 21.4vw;
+  letter-spacing: -0.15rem;
+  line-height: 0.7;
+  font-family: "base", sans-serif;
+  padding: 30px 0;
+}
+footer .inner {
+  padding: 50px;
+}
+footer .contact-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 70%;
+  font-size: 18px;
+  gap: 50px;
+}
+footer .contact-area .text {
+  text-align: center;
+}
+footer .contact-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .contact-box .contact-links {
+  display: flex;
+  gap: 16px;
+}
+footer .contact-box a:after {
+  content: "";
+  display: block;
+  transition: all ease-in-out 0.2s;
+  background: #fff;
+  height: 1px;
+  width: 0;
+}
+footer .contact-box a:hover:after {
+  width: 100%;
+}
+footer .copy {
+  font-size: 16px;
+  text-align: right;
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 1023px) {
+  .m {
+    display: block;
+  }
+  #gnb ul {
+    gap: 20px;
+  }
+  #gnb a {
+    font-size: 16px;
+  }
+  footer .contact-area {
+    font-size: 16px;
+  }
+  footer .contact-box {
+    font-size: 14px;
+  }
+  footer .copy {
+    font-size: 10px;
+  }
+}
+@media (max-width: 767px) {
+  footer .contact-area .text {
+    font-size: 14px;
+  }
+}

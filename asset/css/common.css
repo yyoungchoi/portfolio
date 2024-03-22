@@ -1,0 +1,31 @@
+/* .grey {
+  color: #bababa;
+}
+.white {
+  color: #ffffff;
+ } */
+/* .white-section {
+  background-color: var(--white);
+  color: var(--black);
+} */
+/* .black-section { 
+  background-color: var(--black);
+  color: var(--white);
+}
+.grey-section {
+  background-color: var(--lightgrey);
+  color: var(--black);
+}
+.white-section {
+  background-color: var(--white);
+  color: var(--black);
+} */
+
+/* .headline {
+  margin-top: -2vw;
+  margin-bottom: 5vw;
+  text-align: center;
+} */
+.hidden {
+  overflow: hidden;
+}
